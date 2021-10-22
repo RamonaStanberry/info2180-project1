@@ -4,8 +4,23 @@ body {
     font-size: 16px;
 }
 
+ul{
+    list-style-type: none;  
+}
+
+li{
+    display: inline-block;
+    padding: 5px;
+}
+
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
+    
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
